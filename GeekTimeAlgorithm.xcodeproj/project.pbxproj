@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		04D6642121973CDA00669A42 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6642021973CDA00669A42 /* main.c */; };
+		04D6642921973D0700669A42 /* 06_linkedlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6642821973D0700669A42 /* 06_linkedlist.c */; };
+		04D6642D21985D8D00669A42 /* 07_linkedlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6642C21985D8D00669A42 /* 07_linkedlist.c */; };
+		04D664302198793100669A42 /* 08_stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6642F2198793100669A42 /* 08_stack.c */; };
+		04D6643321998CAF00669A42 /* 09_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6643221998CAF00669A42 /* 09_queue.c */; };
+		04D664362199B28D00669A42 /* 10_recursion.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D664352199B28D00669A42 /* 10_recursion.c */; };
+		04D664392199D54C00669A42 /* 11_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D664382199D54C00669A42 /* 11_sort.c */; };
+		04D6643C2199D76D00669A42 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6643B2199D76D00669A42 /* utils.c */; };
+		04D6643F219C516A00669A42 /* 12_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6643E219C516A00669A42 /* 12_sort.c */; };
+		04D66442219D63AA00669A42 /* 13_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D66441219D63AA00669A42 /* 13_sort.c */; };
+		04D66448219DAEC700669A42 /* 15_binarysearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D66447219DAEC700669A42 /* 15_binarysearch.c */; };
+		04D6644B219E9C0700669A42 /* 16_binarysearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6644A219E9C0700669A42 /* 16_binarysearch.c */; };
+		04D6644E21A16E0D00669A42 /* 23_binarytree.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6644D21A16E0D00669A42 /* 23_binarytree.c */; };
+		04D6645121A1926600669A42 /* 24_binarysearchtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6645021A1926600669A42 /* 24_binarysearchtree.c */; };
+		04D6645421A2E9E700669A42 /* 00_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6645321A2E9E700669A42 /* 00_string.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +39,35 @@
 /* Begin PBXFileReference section */
 		04D6641D21973CDA00669A42 /* GeekTimeAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeekTimeAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D6642021973CDA00669A42 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		04D6642721973D0700669A42 /* 06_linkedlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 06_linkedlist.h; sourceTree = "<group>"; };
+		04D6642821973D0700669A42 /* 06_linkedlist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 06_linkedlist.c; sourceTree = "<group>"; };
+		04D6642A219742FD00669A42 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04D6642B21985D8D00669A42 /* 07_linkedlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 07_linkedlist.h; sourceTree = "<group>"; };
+		04D6642C21985D8D00669A42 /* 07_linkedlist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 07_linkedlist.c; sourceTree = "<group>"; };
+		04D6642E2198793100669A42 /* 08_stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 08_stack.h; sourceTree = "<group>"; };
+		04D6642F2198793100669A42 /* 08_stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 08_stack.c; sourceTree = "<group>"; };
+		04D6643121998CAF00669A42 /* 09_queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 09_queue.h; sourceTree = "<group>"; };
+		04D6643221998CAF00669A42 /* 09_queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 09_queue.c; sourceTree = "<group>"; };
+		04D664342199B28D00669A42 /* 10_recursion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 10_recursion.h; sourceTree = "<group>"; };
+		04D664352199B28D00669A42 /* 10_recursion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 10_recursion.c; sourceTree = "<group>"; };
+		04D664372199D54C00669A42 /* 11_sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 11_sort.h; sourceTree = "<group>"; };
+		04D664382199D54C00669A42 /* 11_sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 11_sort.c; sourceTree = "<group>"; };
+		04D6643A2199D76D00669A42 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		04D6643B2199D76D00669A42 /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		04D6643D219C516A00669A42 /* 12_sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 12_sort.h; sourceTree = "<group>"; };
+		04D6643E219C516A00669A42 /* 12_sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 12_sort.c; sourceTree = "<group>"; };
+		04D66440219D63AA00669A42 /* 13_sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 13_sort.h; sourceTree = "<group>"; };
+		04D66441219D63AA00669A42 /* 13_sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 13_sort.c; sourceTree = "<group>"; };
+		04D66446219DAEC700669A42 /* 15_binarysearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 15_binarysearch.h; sourceTree = "<group>"; };
+		04D66447219DAEC700669A42 /* 15_binarysearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 15_binarysearch.c; sourceTree = "<group>"; };
+		04D66449219E9C0700669A42 /* 16_binarysearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 16_binarysearch.h; sourceTree = "<group>"; };
+		04D6644A219E9C0700669A42 /* 16_binarysearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 16_binarysearch.c; sourceTree = "<group>"; };
+		04D6644C21A16E0D00669A42 /* 23_binarytree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 23_binarytree.h; sourceTree = "<group>"; };
+		04D6644D21A16E0D00669A42 /* 23_binarytree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 23_binarytree.c; sourceTree = "<group>"; };
+		04D6644F21A1926600669A42 /* 24_binarysearchtree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 24_binarysearchtree.h; sourceTree = "<group>"; };
+		04D6645021A1926600669A42 /* 24_binarysearchtree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 24_binarysearchtree.c; sourceTree = "<group>"; };
+		04D6645221A2E9E700669A42 /* 00_string.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 00_string.h; sourceTree = "<group>"; };
+		04D6645321A2E9E700669A42 /* 00_string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 00_string.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,35 @@
 			isa = PBXGroup;
 			children = (
 				04D6642021973CDA00669A42 /* main.c */,
+				04D6642A219742FD00669A42 /* PrefixHeader.pch */,
+				04D6645221A2E9E700669A42 /* 00_string.h */,
+				04D6645321A2E9E700669A42 /* 00_string.c */,
+				04D6642721973D0700669A42 /* 06_linkedlist.h */,
+				04D6642821973D0700669A42 /* 06_linkedlist.c */,
+				04D6642B21985D8D00669A42 /* 07_linkedlist.h */,
+				04D6642C21985D8D00669A42 /* 07_linkedlist.c */,
+				04D6642E2198793100669A42 /* 08_stack.h */,
+				04D6642F2198793100669A42 /* 08_stack.c */,
+				04D6643121998CAF00669A42 /* 09_queue.h */,
+				04D6643221998CAF00669A42 /* 09_queue.c */,
+				04D664342199B28D00669A42 /* 10_recursion.h */,
+				04D664352199B28D00669A42 /* 10_recursion.c */,
+				04D664372199D54C00669A42 /* 11_sort.h */,
+				04D664382199D54C00669A42 /* 11_sort.c */,
+				04D6643D219C516A00669A42 /* 12_sort.h */,
+				04D6643E219C516A00669A42 /* 12_sort.c */,
+				04D66440219D63AA00669A42 /* 13_sort.h */,
+				04D66441219D63AA00669A42 /* 13_sort.c */,
+				04D66446219DAEC700669A42 /* 15_binarysearch.h */,
+				04D66447219DAEC700669A42 /* 15_binarysearch.c */,
+				04D66449219E9C0700669A42 /* 16_binarysearch.h */,
+				04D6644A219E9C0700669A42 /* 16_binarysearch.c */,
+				04D6644C21A16E0D00669A42 /* 23_binarytree.h */,
+				04D6644D21A16E0D00669A42 /* 23_binarytree.c */,
+				04D6644F21A1926600669A42 /* 24_binarysearchtree.h */,
+				04D6645021A1926600669A42 /* 24_binarysearchtree.c */,
+				04D6643A2199D76D00669A42 /* utils.h */,
+				04D6643B2199D76D00669A42 /* utils.c */,
 			);
 			path = GeekTimeAlgorithm;
 			sourceTree = "<group>";
@@ -118,7 +190,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D664302198793100669A42 /* 08_stack.c in Sources */,
+				04D6645421A2E9E700669A42 /* 00_string.c in Sources */,
+				04D66448219DAEC700669A42 /* 15_binarysearch.c in Sources */,
+				04D6645121A1926600669A42 /* 24_binarysearchtree.c in Sources */,
+				04D6643C2199D76D00669A42 /* utils.c in Sources */,
+				04D6644B219E9C0700669A42 /* 16_binarysearch.c in Sources */,
+				04D664362199B28D00669A42 /* 10_recursion.c in Sources */,
+				04D66442219D63AA00669A42 /* 13_sort.c in Sources */,
+				04D6642D21985D8D00669A42 /* 07_linkedlist.c in Sources */,
+				04D6643F219C516A00669A42 /* 12_sort.c in Sources */,
 				04D6642121973CDA00669A42 /* main.c in Sources */,
+				04D664392199D54C00669A42 /* 11_sort.c in Sources */,
+				04D6643321998CAF00669A42 /* 09_queue.c in Sources */,
+				04D6642921973D0700669A42 /* 06_linkedlist.c in Sources */,
+				04D6644E21A16E0D00669A42 /* 23_binarytree.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +326,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GeekTimeAlgorithm/PrefixHeader.pch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,6 +337,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GeekTimeAlgorithm/PrefixHeader.pch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

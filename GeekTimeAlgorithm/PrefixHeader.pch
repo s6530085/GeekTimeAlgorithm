@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  GeekTimeAlgorithm
+//
+//  Created by study_sun on 2018/11/11.
+//  Copyright © 2018 study_sun. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#include <stdio.h>
+#include <stdbool.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include "utils.h"
+#include <math.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
