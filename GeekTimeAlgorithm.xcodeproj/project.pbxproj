@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0463EC0D21AC266200E34315 /* 27_recursiontree.c in Sources */ = {isa = PBXBuildFile; fileRef = 0463EC0C21AC266200E34315 /* 27_recursiontree.c */; };
+		0463EC1021AF65F700E34315 /* 28_heap.c in Sources */ = {isa = PBXBuildFile; fileRef = 0463EC0F21AF65F700E34315 /* 28_heap.c */; };
 		04D6642121973CDA00669A42 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6642021973CDA00669A42 /* main.c */; };
 		04D6642921973D0700669A42 /* 06_linkedlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6642821973D0700669A42 /* 06_linkedlist.c */; };
 		04D6642D21985D8D00669A42 /* 07_linkedlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D6642C21985D8D00669A42 /* 07_linkedlist.c */; };
@@ -37,6 +39,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0463EC0B21AC266200E34315 /* 27_recursiontree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 27_recursiontree.h; sourceTree = "<group>"; };
+		0463EC0C21AC266200E34315 /* 27_recursiontree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 27_recursiontree.c; sourceTree = "<group>"; };
+		0463EC0E21AF65F700E34315 /* 28_heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 28_heap.h; sourceTree = "<group>"; };
+		0463EC0F21AF65F700E34315 /* 28_heap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 28_heap.c; sourceTree = "<group>"; };
 		04D6641D21973CDA00669A42 /* GeekTimeAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeekTimeAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D6642021973CDA00669A42 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		04D6642721973D0700669A42 /* 06_linkedlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 06_linkedlist.h; sourceTree = "<group>"; };
@@ -128,6 +134,10 @@
 				04D6644D21A16E0D00669A42 /* 23_binarytree.c */,
 				04D6644F21A1926600669A42 /* 24_binarysearchtree.h */,
 				04D6645021A1926600669A42 /* 24_binarysearchtree.c */,
+				0463EC0B21AC266200E34315 /* 27_recursiontree.h */,
+				0463EC0C21AC266200E34315 /* 27_recursiontree.c */,
+				0463EC0E21AF65F700E34315 /* 28_heap.h */,
+				0463EC0F21AF65F700E34315 /* 28_heap.c */,
 				04D6643A2199D76D00669A42 /* utils.h */,
 				04D6643B2199D76D00669A42 /* utils.c */,
 			);
@@ -193,8 +203,10 @@
 				04D664302198793100669A42 /* 08_stack.c in Sources */,
 				04D6645421A2E9E700669A42 /* 00_string.c in Sources */,
 				04D66448219DAEC700669A42 /* 15_binarysearch.c in Sources */,
+				0463EC1021AF65F700E34315 /* 28_heap.c in Sources */,
 				04D6645121A1926600669A42 /* 24_binarysearchtree.c in Sources */,
 				04D6643C2199D76D00669A42 /* utils.c in Sources */,
+				0463EC0D21AC266200E34315 /* 27_recursiontree.c in Sources */,
 				04D6644B219E9C0700669A42 /* 16_binarysearch.c in Sources */,
 				04D664362199B28D00669A42 /* 10_recursion.c in Sources */,
 				04D66442219D63AA00669A42 /* 13_sort.c in Sources */,

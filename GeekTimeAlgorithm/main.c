@@ -21,6 +21,7 @@
 #include "16_binarysearch.h"
 #include "23_binarytree.h"
 #include "24_binarysearchtree.h"
+#include "27_recursiontree.h"
 
 int main(int argc, const char * argv[]) {
 //    SMLinkedList *list = createSMLinkedList();
@@ -103,10 +104,13 @@ int main(int argc, const char * argv[]) {
 //    n3->left = n6;
 //    n3->right = n7;
 //    int i = binary_tree_height(t);
-    char s[] = "abcdefg";
-    printf("%s\n", s);
-    string_left_swift(s, 2);
-    printf("%s\n", s);
+//    char s[] = "abcdefg";
+//    printf("%s\n", s);
+//    string_left_swift(s, 2);
+//    printf("%s\n", s);
 
+    int a[] = {1,2,3,4};
+    print_all_full_permutation(a, 4);
+    printf("%d\n", cell_splinter(4));
     return 0;
 }
